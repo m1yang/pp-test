@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["esnext"],
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "strict": true,
+    "types": ["node"],
+    "allowJs": true,
+    "checkJs": true
+    // "paths": {
+    //   "pp-test": ["./src/types.d.ts"]
+    // }
+  },
+  "include": ["src/**/*"],
+}
